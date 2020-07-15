@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TechnologyCardComponent } from './components/technology-card/technology-card.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SearchComponent } from './pages/search/search.component';
+import { TecnhologiesComponent } from './pages/tecnhologies/tecnhologies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TechnologyCardComponent,
     AboutComponent,
-    SearchComponent
+    SearchComponent,
+    TecnhologiesComponent
   ],
   imports: [
     BrowserModule,
