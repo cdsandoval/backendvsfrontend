@@ -7,6 +7,7 @@ import { TechnologyCardComponent } from './components/technology-card/technology
 import { AboutComponent } from './pages/about/about.component';
 import { SearchComponent } from './pages/search/search.component';
 import { TecnhologiesComponent } from './pages/tecnhologies/tecnhologies.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TecnhologiesComponent } from './pages/tecnhologies/tecnhologies.compone
     TechnologyCardComponent,
     AboutComponent,
     SearchComponent,
-    TecnhologiesComponent
+    TecnhologiesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
