@@ -4,6 +4,6 @@ export interface Technology {
   description: string;
   logo: string;
   tags: string[];
-  createAt: Date;
+  createdAt: Date;
   updateAt: Date;
 }

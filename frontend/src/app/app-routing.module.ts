@@ -20,7 +20,7 @@ const routes: Routes = [
     component: TecnhologiesComponent,
   },
   {
-    path: 'tecnology/:id',
+    path: 'technology/:id',
     component: TechnologyComponent,
   },
   {
