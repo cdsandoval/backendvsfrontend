@@ -10,7 +10,7 @@ import { TecnhologiesComponent } from './pages/tecnhologies/tecnhologies.compone
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { TechnologyComponent } from './pages/technology/technology.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +20,10 @@ import { TechnologyComponent } from './pages/technology/technology.component';
     TecnhologiesComponent,
     HomeComponent,
     NavbarComponent,
-    TechnologyComponent
+    TechnologyComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
