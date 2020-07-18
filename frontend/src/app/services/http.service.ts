@@ -18,7 +18,7 @@ export class HttpService {
   }
 
   public searchTechnology(query: string) {
-    return this._http.get<Technology>(
+    return this._http.get<Technology[]>(
       this.baseUrl + '/technology/search/' + query
     );
   }
